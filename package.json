@@ -1,0 +1,33 @@
+{
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "devDependencies": {
+    "@moefe/vue-aplayer": "^2.0.0-beta.5",
+    "jquery": "^3.5.1",
+    "less": "^3.12.2",
+    "less-loader": "^7.0.0",
+    "vue-embed-gist": "^1.0.2",
+    "vuepress": "^1.4.1",
+    "vuepress-plugin-boxx": "0.0.7",
+    "vuepress-plugin-container": "^2.1.4",
+    "vuepress-plugin-cursor-effects": "^1.0.0",
+    "vuepress-plugin-dynamic-title": "^1.0.0",
+    "vuepress-plugin-meting": "^0.1.1",
+    "vuepress-plugin-nuggets-style-copy": "^1.0.3",
+    "vuepress-theme-reco": "1.5.4"
+  },
+  "dependencies": {
+    "@vuepress-reco/vuepress-plugin-comments": "1.4.0",
+    "@vuepress-reco/vuepress-plugin-loading-page": "1.4.0",
+    "@vuepress-reco/vuepress-plugin-pagation": "1.4.0",
+    "container": "^0.0.2",
+    "express": "^4.17.1",
+    "vue-canvas-effect": "0.0.12",
+    "vue-property-decorator": "8.4.2",
+    "vuepress-plugin-helper-live2d": "^1.0.2",
+    "vuepress-plugin-nuggets-style-copy": "^1.0.3"
+  }
+}
