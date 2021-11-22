@@ -2,9 +2,8 @@ const nav = require("./config/nav");
 const pluginsConf = require('./plugins/index')
 
 module.exports = {
-  // base: "/",
-  base: "/blog/",
-  title: "后来的我们",
+  base: "/",
+  title: "你的title哟",
   description: "It takes two to tango.",
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }],
